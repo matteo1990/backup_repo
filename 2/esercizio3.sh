@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo -e "come deve chiamarsi il file?\n";
+
+read name
+
+	touch $name;
+	echo -e "Vuoi dare i permessi (x) al file-$name? Y/N \n"
+	read lettera;
+		if [ $lettera == "y" ], then
+	chmod u+x $name;
+	exit;
+	fi
+
+
+
+
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# questo è un commento
+
+echo -e "Hello\nWorld!"
